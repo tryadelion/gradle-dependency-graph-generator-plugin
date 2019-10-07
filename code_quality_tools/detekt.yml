@@ -7,11 +7,17 @@ potential-bugs:
     active: false # We know what we're doing.
 
 style:
+  DataClassShouldBeImmutable:
+    active: false
   TopLevelPropertyNaming:
     active: false
   MaxLineLength:
     active: false
   UnnecessaryApply:
+    active: false
+
+performance:
+  SpreadOperator:
     active: false
 
 comments:
